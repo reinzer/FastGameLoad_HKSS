@@ -99,12 +99,6 @@
     <Reference Include="SharpDX.DirectInput">
       <HintPath>$(HKSS_Path)/Hollow Knight Silksong_Data/Managed/SharpDX.DirectInput.dll</HintPath>
     </Reference>
-    <Reference Include="System">
-      <HintPath>$(HKSS_Path)/Hollow Knight Silksong_Data/Managed/System.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections">
-      <HintPath>$(HKSS_Path)/Hollow Knight Silksong_Data/Managed/System.Collections.dll</HintPath>
-    </Reference>
     <Reference Include="System.ComponentModel.Composition">
       <HintPath>$(HKSS_Path)/Hollow Knight Silksong_Data/Managed/System.ComponentModel.Composition.dll</HintPath>
     </Reference>
@@ -501,7 +495,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="Build">
-    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(HKSS_Path)/BepInEx/plugins/Test/" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(HKSS_Path)/BepInEx/plugins/" />
   </Target>
 
 </Project>

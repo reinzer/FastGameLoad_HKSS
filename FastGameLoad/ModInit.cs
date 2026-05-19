@@ -8,11 +8,16 @@ using HarmonyLib;
 using Unity.Mathematics;
 using Newtonsoft.Json;
 using GlobalEnums;
-using System.Collections;
 using HutongGames.PlayMaker.Actions;
 using GenericVariableExtension;
 using HutongGames.PlayMaker;
 using Unity.Burst.Intrinsics;
+using UnityEngine.ResourceManagement.AsyncOperations;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Text;
+using UnityEngine.ResourceManagement.ResourceProviders;
 
 namespace FastGameLoad
 {
