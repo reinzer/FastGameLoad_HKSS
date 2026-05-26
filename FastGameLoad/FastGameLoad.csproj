@@ -493,9 +493,4 @@
       <HintPath>$(HKSS_Path)/Hollow Knight Silksong_Data/Managed/zlib.net.dll</HintPath>
     </Reference>
   </ItemGroup>
-
-  <Target Name="PostBuild" AfterTargets="Build">
-    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(HKSS_Path)/BepInEx/plugins/" />
-  </Target>
-
 </Project>
