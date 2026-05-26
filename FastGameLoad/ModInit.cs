@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace FastGameLoad
 {
-    [BepInPlugin("bepinex.plugin.fastgameload", "FastGameLoad", "0.1.0")]
+    [BepInPlugin("bepinex.plugin.fastgameload", "FastGameLoad", "0.1.1")]
     public class FastGameLoad : BaseUnityPlugin
     {
         public static FastGameLoad instance;
