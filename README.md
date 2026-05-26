@@ -1,5 +1,7 @@
 # FastGameLoad
 
-This mod speeds up startup of Hollow Knight Silk Song.
+The startup animation inevitably takes around 10 seconds, so even if you store the game in ram and your game can launch in one second - you will have to wait.
 
-![Example](images/FastGameLoad_example.png)
+This mod removes that animation, so game launches the way faster, e.g.:
+
+<img alt="Gif Example" src="gif/example.gif">
